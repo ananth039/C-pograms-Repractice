@@ -45,12 +45,15 @@ namespace ConsoleApplication1
                 Console.WriteLine(array1[m]);
             }
 
-            StringBuilder s = new StringBuilder();
-            s.Append("hai");
-            s.Insert(3, "hello");
-            Console.WriteLine(s);
-            s.Remove(7, 8);
-            Console.WriteLine(s); 
+           foreach(string s in words)
+            {
+               char[] chararray=s.ToCharArray();
+           
+           }
+              
+           Console.WriteLine(s1.Substring(2,5));
+
+
 
            
         }
